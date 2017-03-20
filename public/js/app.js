@@ -10,7 +10,7 @@ setTimeout(function(){
 
 function x(){
 	$.ajax({
-		url: "http://www.omdbapi.com/?t=Resident+evil"
+		url: "https://www.omdbapi.com/?t=Resident+evil"
 	}).done(function(res){
 		console.log(res);
 		let html = `
@@ -33,7 +33,7 @@ function x(){
 http://www.omdbapi.com/?t=Resident+evil+apocalypse
 
 $.ajax({
-	url: "http://www.omdbapi.com/?t=Resident+evil+apocalypse"
+	url: "https://www.omdbapi.com/?t=Resident+evil+apocalypse"
 }).done(function(res){
 	console.log(res);
 	let html = `
@@ -57,7 +57,7 @@ $.ajax({
 http://www.omdbapi.com/?t=Resident+evil+extinction
 
 $.ajax({
-	url: "http://www.omdbapi.com/?t=Resident+evil+extinction"
+	url: "https://www.omdbapi.com/?t=Resident+evil+extinction"
 }).done(function(res){
 	console.log(res);
 	let html = `
@@ -81,7 +81,7 @@ $.ajax({
 http://www.omdbapi.com/?t=Resident+evil+afterlife
 
 $.ajax({
-	url: "http://www.omdbapi.com/?t=Resident+evil+afterlife"
+	url: "https://www.omdbapi.com/?t=Resident+evil+afterlife"
 }).done(function(res){
 	console.log(res);
 	let html = `
@@ -105,7 +105,7 @@ $.ajax({
 
 http://www.omdbapi.com/?t=Resident+evil+the+final+chapter
 $.ajax({
-	url: "http://www.omdbapi.com/?t=Resident+evil+the+final+chapter"
+	url: "https://www.omdbapi.com/?t=Resident+evil+the+final+chapter"
 }).done(function(res){
 	console.log(res);
 	let html = `
