@@ -129,3 +129,6 @@ $.ajax({
 
 
 
+// $(document).ready(function(){
+//   $('.bxslider').bxSlider();
+// });
